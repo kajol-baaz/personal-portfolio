@@ -1,0 +1,243 @@
+
+body{
+    background:#0D2B3C;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+   }
+.navbar-nav .nav-item {
+    color: #F4F4F4;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item:hover {
+    color:#ff9f1c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*from here my stylng is start and this 1st page styling */
+.container{
+    height:60vh;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    position: relative;
+    top: 3px;
+    font-family: 'Inter';
+}
+.heading{
+    margin-left: 6%;
+    margin-bottom: 4%;
+    font-weight: bold;
+    color: #ff9f1c;
+    padding-top: 3%;
+    font-family: 'rubik','poppins';
+}
+.container p{
+    color: #F4F4F4;
+    width: 45vw;
+    margin-left: 3%;
+    font-size: large;
+    font-family: 'poppins','inter';
+}
+.container img {
+    width: 14vw;
+    height: auto;
+    position: absolute;
+    left: 70%;
+    border:1px solid #f4f4f4;
+    box-shadow: 5px 5px 10px rgba(17, 19, 18, 0.3);
+    top: 20%;
+    bottom:20%;
+     transition: transform 0.10s ease;
+}
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.divider{
+    border: none;
+    height: 1px;
+    background-color: #e4f1f8;
+    margin:4% 0;
+}
+/*here the styling is start for second section*/
+.section-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(145deg,#0D2B3C,#1a3a4f);
+    width:80vw;
+    height:50vh;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    margin-left: 9%;
+     font-family: 'Inter';
+     position: relative; 
+}
+.heading-for-all{
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 5%;
+    font-family: 'rubik','poppins';
+    color: #ff9f1c;
+}
+#paragraph{
+    position:absolute;
+    left: 7%;
+    margin-bottom: 5%;
+    width: 70vw;
+    color: #F4F4F4;
+}
+
+.button{
+    display: inline-block;
+    padding: 1% 1%;
+    position: absolute;
+    margin-top: 10%;
+    bottom: 10%;
+    background-color:#ff9f1c;
+    color:#fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 12vw;
+    /* this is used to remove the underline from the download text*/
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.button:hover{
+    transition: transform 0.3s ease,background-color 0.3s ease ;
+    background-color: black;
+    transform: scale(1.1);
+}
+/*this is used for the icons of the skill*/
+.t-color{
+    color: #F4F4F4;
+}
+.column img{
+    padding: 0;
+    margin: 0%;
+    width: 150px;
+    height: 160px;
+    margin-top: 9%;
+}
+/*this is uesed for the project*/
+.column{
+    width:20vw;
+    height: 50vh;
+}
+.ptag{
+    margin-top: 3%;
+    font-family: 'Calisto MT';
+    font-weight: bold;
+}
+
+/*.carousel-item{
+    color: red;
+    background: #ff9f1c;
+    height: 50vh;
+}*/
+/*testimonial*/
+.custom{
+ display: flex;
+ width: 50vw;
+ flex-direction:column ;
+ height: 50vh;
+ background-color: #fff;
+ position: relative;
+}
+.custom img{
+    position: absolute;
+    bottom: 15%;
+    width: 10vw;
+     height: auto;
+}
+.custom h3{
+    position: absolute;
+    top: 20%;
+    left: 40%;   
+    transform: translatex(-60%);
+    text-align: center;
+}
+.custom p{
+    color: rgb(20, 20, 20);
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding-top: 5%;
+    text-align: center;
+}
+/*this is for form*/
+.custom-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.heading2{
+    color:#022438;
+    font-family: 'rubik','poppins';
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom:8%;
+}
+label{
+    color: #022438;
+    font-family: rubik,poppins;
+    font-weight: bold;
+}
+
+.form{
+    
+    width:28%;
+    max-width: auto;
+    border-radius: 4%;
+    background-color: rgb(255, 252, 252);
+    padding: 2%;
+    border:none;
+}
+/*here we have our footer*/
+.box{
+    width: 100%;
+    height: 15%;
+    padding: 9px;
+    margin-top: 10%;
+
+}
+.box h2 {
+    font-family: 'Calisto MT', serif;
+    color: #f3f5fc;
+    text-align: center;
+}
+.box a{
+    color: #f3ecec;
+    font-family: 'Calisto MT', serif;
+    margin-left: 8%;
+    align-items: center;
+    padding-top: 5%;
+    font-weight: bold;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .section{
+        height: auto;
+    }
+    .container {
+        width:auto;
+        height:auto;
+        padding:auto;
+        margin: auto;
+    }
+    .container img {
+        position: absolute;
+        right: 10%;
+
+        display: block;
+        margin: 20px auto;
+    }
+}
